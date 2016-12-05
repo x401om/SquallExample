@@ -1,0 +1,24 @@
+PODS:
+  - keyframes (1.0.0)
+  - Squall (2.0)
+
+DEPENDENCIES:
+  - keyframes (from `https://github.com/facebookincubator/Keyframes.git`)
+  - Squall (= 2.0)
+
+EXTERNAL SOURCES:
+  keyframes:
+    :git: https://github.com/facebookincubator/Keyframes.git
+
+CHECKOUT OPTIONS:
+  keyframes:
+    :commit: 3615e37fcdb6be9ef8371d74f8adf84f421205f0
+    :git: https://github.com/facebookincubator/Keyframes.git
+
+SPEC CHECKSUMS:
+  keyframes: a8bfc51f032a20a1b51f8ca1e1e3c7330c94f812
+  Squall: 49241aee882dc7a5e780f042ec3786e57655b54d
+
+PODFILE CHECKSUM: 4a0b799e871f0b54495834713197bf6c42d1a036
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,2086 @@
+{
+  "formatVersion": "1.0",
+  "name": "COMP",
+  "key": 1,
+  "frame_rate": 24,
+  "animation_frame_count": 72,
+  "canvas_size": [
+                  300,
+                  300
+                  ],
+  "features": [
+               {
+               "name": "Shape Layer 1",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              51,
+                                                              51
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M48.50,-73.50",
+                                       "C8.50,-95.00,-39.50,-89.00,-76.00,-49.50",
+                                       "C-115.61,-6.64,-109.50,56.00,-59.00,91.00",
+                                       "C-18.31,119.20,57.57,114.54,86.00,64.50",
+                                       "C123.50,-1.50,81.01,-56.02,48.50,-73.50"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ffea6629",
+               "stroke_color": "#ff384451",
+               "stroke_width": 9
+               },
+               {
+               "name": "Shape Layer 4",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              155.865
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              154.59
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              42.1344933214438,
+                                                              42.1344933214438
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M32.34,-86.46",
+                                       "C-7.66,-107.96,-55.66,-101.96,-92.16,-62.46",
+                                       "C-131.77,-19.60,-125.66,43.04,-75.16,78.04",
+                                       "C-34.47,106.24,41.41,101.58,69.84,51.54",
+                                       "C107.34,-14.46,64.85,-68.99,32.34,-86.46"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ffec792d",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 3",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              32.7608646074517,
+                                                              32.7608646074517
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M32.34,-86.46",
+                                       "C-7.66,-107.96,-55.66,-101.96,-92.16,-62.46",
+                                       "C-131.77,-19.60,-125.66,43.04,-75.16,78.04",
+                                       "C-34.47,106.24,41.41,101.58,69.84,51.54",
+                                       "C107.34,-14.46,64.85,-68.99,32.34,-86.46"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ffee8a2f",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 2",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              51,
+                                                              51
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M-26.94,-60.88",
+                                       "C-30.31,-68.19,-46.24,-60.98,-55.50,-53.50",
+                                       "C-63.63,-46.94,-74.78,-37.09,-67.50,-31.50",
+                                       "C-61.06,-26.56,-57.88,-34.63,-45.25,-44.63",
+                                       "C-35.24,-52.55,-23.28,-52.96,-26.94,-60.88"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 6",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              165.9375
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              161.985
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              51,
+                                                              51
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              -6
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 9",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              165.9375
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              161.985
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              25.5,
+                                                              25.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              -6
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ff384451",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 7",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              129.2175
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              154.335
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              51,
+                                                              51
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              21
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 8",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              129.2175
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              154.335
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              25.5,
+                                                              25.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              24
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ff384451",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 15",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              127.3425
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              152.085
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              7.97542081956023,
+                                                              7.74071434105829
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              24
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 18",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              164.2175
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              159.085
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              7.45868444625853,
+                                                              7.74071434105829
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              24
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 16",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              131.0925
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              156.71
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              3.22249115953497,
+                                                              3.13645509614764
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              24
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 17",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -39.5,
+                                                              9.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              168.0925
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              164.585
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              3.22249115953497,
+                                                              3.13645509614764
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 17,
+                                                     "data": [
+                                                              24
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333,
+                                                          0
+                                                          ],
+                                                         [
+                                                          0.66666667,
+                                                          1
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 16,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              },
+                              {
+                              "start_frame": 17,
+                              "data": [
+                                       "M-39.88,8.75",
+                                       "C-64.13,7.75,-76.75,8.13,-40.00,8.63",
+                                       "C-2.67,9.13,-12.33,9.89,-39.88,8.75"
+                                       ]
+                              },
+                              {
+                              "start_frame": 19,
+                              "data": [
+                                       "M-40.00,-18.50",
+                                       "C-64.25,-19.50,-77.75,28.00,-41.00,28.50",
+                                       "C-3.67,29.01,-12.45,-17.36,-40.00,-18.50"
+                                       ]
+                              }
+                              ],
+               "timing_curves": [
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ],
+                                 [
+                                  [
+                                   0.166666665,
+                                   0
+                                   ],
+                                  [
+                                   0.833333335,
+                                   1
+                                   ]
+                                  ]
+                                 ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 10",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              18.5,
+                                                              -36
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              168.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              114
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 16,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 18,
+                                                     "data": [
+                                                              -17
+                                                              ]
+                                                     },
+                                                     {
+                                                     "start_frame": 19,
+                                                     "data": [
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                                        [
+                                                         [
+                                                          0.33333333333333,
+                                                          0.33333333333333
+                                                          ],
+                                                         [
+                                                          0.66666666666667,
+                                                          0.66666666666667
+                                                          ]
+                                                         ],
+                                                        [
+                                                         [
+                                                          0.33333333333333,
+                                                          0.33333333333333
+                                                          ],
+                                                         [
+                                                          0.66666666666667,
+                                                          0.66666666666667
+                                                          ]
+                                                         ]
+                                                        ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M-3.50,-62.00",
+                                       "C-11.50,-39.00,8.50,-33.00,19.00,-36.50",
+                                       "C19.00,-44.00,18.50,-53.00,-3.50,-62.00"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ff7bdc37",
+               "stroke_color": "#ff384451",
+               "stroke_width": 5
+               },
+               {
+               "name": "Shape Layer 11",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M27.00,-47.50",
+                                       "L17.50,-32.50",
+                                       "Q-2.84,-37.48,-2.00,-22.00",
+                                       "C-1.63,-15.13,2.99,-12.63,6.38,-12.63",
+                                       "C13.38,-12.63,16.28,-16.20,16.50,-20.00",
+                                       "C16.88,-26.38,8.00,-28.25,7.63,-22.50"
+                                       ]
+                              }
+                              ],
+               "stroke_color": "#ff384451",
+               "stroke_width": 4
+               },
+               {
+               "name": "Shape Layer 12",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              151
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150.75
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              120,
+                                                              107.180419507887
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M-10.00,18.25",
+                                       "C-8.25,20.25,-4.75,22.50,-0.75,19.25"
+                                       ]
+                              }
+                              ],
+               "stroke_color": "#ff384451",
+               "stroke_width": 2
+               },
+               {
+               "name": "Shape Layer 13",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              153.25
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              145.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              110.974800486542,
+                                                              139.867171367297
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M-31.75,12.75",
+                                       "C-34.75,11.50,-46.75,13.75,-36.25,19.50",
+                                       "C-27.85,24.10,-28.75,14.00,-31.75,12.75"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#fff0a16d",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 14",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              203.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              142.5
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "SCALE",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              119.893469628916,
+                                                              117.030163323778
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "ROTATION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              -26
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M-31.75,12.75",
+                                       "C-34.75,11.50,-46.75,13.75,-36.25,19.50",
+                                       "C-27.85,24.10,-28.75,14.00,-31.75,12.75"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#fff0a16d",
+               "stroke_color": "#ff384451",
+               "stroke_width": 0
+               },
+               {
+               "name": "Shape Layer 19",
+               "feature_animations": [
+                                      {
+                                      "property": "ANCHOR_POINT",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              0,
+                                                              0
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "X_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      },
+                                      {
+                                      "property": "Y_POSITION",
+                                      "key_values": [
+                                                     {
+                                                     "start_frame": 0,
+                                                     "data": [
+                                                              150
+                                                              ]
+                                                     }
+                                                     ],
+                                      "timing_curves": [
+                                      
+                                      ]
+                                      }
+                                      ],
+               "stroke_line_cap": "butt",
+               "key_frames": [
+                              {
+                              "start_frame": 0,
+                              "data": [
+                                       "M286.00,121.00"
+                                       ]
+                              }
+                              ],
+               "fill_color": "#ffffffff",
+               "stroke_color": "#ffffffff",
+               "stroke_width": 5
+               }
+               ],
+  "animation_groups": [
+  
+  ]
+}

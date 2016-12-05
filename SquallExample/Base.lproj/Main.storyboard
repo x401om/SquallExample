@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCk-0i-mKQ">
+                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yCk-0i-mKQ" secondAttribute="height" multiplier="1:1" id="Fs3-bg-ENX"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Us-oY-GVL">
+                                <rect key="frame" x="107" y="254" width="161" height="30"/>
+                                <state key="normal" title="Reload Animation Layer"/>
+                                <connections>
+                                    <action selector="reloadAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2A-Ig-oW6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71951215612180242" green="1" blue="0.93477367056791283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="top" secondItem="0Us-oY-GVL" secondAttribute="bottom" constant="8" id="B8K-S3-jZi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yCk-0i-mKQ" secondAttribute="bottom" id="JiA-Ir-Sbz"/>
+                            <constraint firstAttribute="trailing" secondItem="yCk-0i-mKQ" secondAttribute="trailing" id="TAn-sX-Nlb"/>
+                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pCr-PH-24L"/>
+                            <constraint firstItem="0Us-oY-GVL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tfQ-gq-bfc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="yCk-0i-mKQ" id="R3l-mM-VbA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
