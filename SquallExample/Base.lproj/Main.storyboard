@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,35 +20,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o9T-1h-Vj6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCk-0i-mKQ">
-                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-cJ-xpp" customClass="EAKeyframeView">
+                                <rect key="frame" x="137.5" y="40" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="yCk-0i-mKQ" secondAttribute="height" multiplier="1:1" id="Fs3-bg-ENX"/>
+                                    <constraint firstAttribute="height" constant="100" id="fK3-9g-MEC"/>
+                                    <constraint firstAttribute="width" constant="100" id="nNf-d6-QqK"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Us-oY-GVL">
-                                <rect key="frame" x="107" y="254" width="161" height="30"/>
-                                <state key="normal" title="Reload Animation Layer"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="P8A-DC-uwz">
+                                <rect key="frame" x="16" y="154" width="343" height="29"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                </segments>
                                 <connections>
-                                    <action selector="reloadAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2A-Ig-oW6"/>
+                                    <action selector="didChangeSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="Nbj-BJ-FLa"/>
                                 </connections>
-                            </button>
+                            </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.71951215612180242" green="1" blue="0.93477367056791283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.41670045200359224" green="0.80986537876044318" blue="0.89780318737030029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="top" secondItem="0Us-oY-GVL" secondAttribute="bottom" constant="8" id="B8K-S3-jZi"/>
+                            <constraint firstItem="EwW-cJ-xpp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="9Yc-wq-NPb"/>
+                            <constraint firstItem="P8A-DC-uwz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Ix6-bn-sI2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yCk-0i-mKQ" secondAttribute="bottom" id="JiA-Ir-Sbz"/>
+                            <constraint firstItem="EwW-cJ-xpp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M1e-v4-ilj"/>
+                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NWv-jd-XEz"/>
+                            <constraint firstItem="P8A-DC-uwz" firstAttribute="top" secondItem="EwW-cJ-xpp" secondAttribute="bottom" constant="14" id="P5E-Op-oUt"/>
                             <constraint firstAttribute="trailing" secondItem="yCk-0i-mKQ" secondAttribute="trailing" id="TAn-sX-Nlb"/>
+                            <constraint firstAttribute="trailing" secondItem="o9T-1h-Vj6" secondAttribute="trailing" id="eGa-Jz-Og4"/>
+                            <constraint firstAttribute="trailing" secondItem="P8A-DC-uwz" secondAttribute="trailing" constant="16" id="gEy-dp-Q31"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o9T-1h-Vj6" secondAttribute="bottom" id="hsh-y1-gJx"/>
                             <constraint firstItem="yCk-0i-mKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pCr-PH-24L"/>
-                            <constraint firstItem="0Us-oY-GVL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tfQ-gq-bfc"/>
+                            <constraint firstItem="o9T-1h-Vj6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rtR-ZQ-pwQ"/>
+                            <constraint firstItem="o9T-1h-Vj6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sa5-s0-MAd"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="animationView" destination="yCk-0i-mKQ" id="R3l-mM-VbA"/>
+                        <outlet property="cloudView" destination="EwW-cJ-xpp" id="VsP-nO-d03"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-528.79999999999995" y="-16.641679160419791"/>
         </scene>
     </scenes>
 </document>

@@ -7,12 +7,15 @@
 //
 
 @import Squall;
-@import keyframes;
+@import Keyframes;
+
+#import "EAKeyframeView.h"
 
 #import "ViewController.h"
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet EAKeyframeView *cloudView;
 @property (nonatomic, weak) IBOutlet UIView *animationView;
 
 @property (nonatomic, weak) SLCoreAnimation *animation;
@@ -28,12 +31,18 @@
   NSString *license = [NSString stringWithContentsOfURL:file encoding:NSUTF8StringEncoding error:nil];
   
   [Squall setLicenseKey:license];
+  
+  self.cloudView.vectorPrefix = @"KFCloud";
 }
 
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
   
   [self reloadAnimation:nil];
+}
+
+- (IBAction)didChangeSegment:(UISegmentedControl *)sender {
+  [self.cloudView startVectorAnimationAtIndex:sender.selectedSegmentIndex + 1];
 }
 
 - (KFVectorLayer *)createFruitLayerWithId:(NSString *)fruitId {
@@ -56,9 +65,6 @@
     [self.animation pause];
     [self.animation removeFromSuperlayer];
   }
-
-  
-
 
   NSError *error;
   

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD9E784E27EF76FF3B344377C1E0E9992D02CEEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD9E784E27EF76FF3B344377C1E0E9992D02CEEC" : 9223372036854775807,
+    "3F2A8EF9F362E06199C167975D79B73B3135FFB5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA505CA4-808A-43C0-9322-8D7C75086080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD9E784E27EF76FF3B344377C1E0E9992D02CEEC" : "SquallExample\/",
+    "3F2A8EF9F362E06199C167975D79B73B3135FFB5" : "Repos\/Keyframes_fork\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SquallExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SquallExample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/x401om\/Keyframes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F2A8EF9F362E06199C167975D79B73B3135FFB5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/x401om\/SquallExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD9E784E27EF76FF3B344377C1E0E9992D02CEEC"
+    }
+  ]
+}
