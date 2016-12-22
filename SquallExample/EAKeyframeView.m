@@ -107,11 +107,14 @@
           [weakSelf.layer addSublayer:layer];
           [weakSelf.vectorLayer removeFromSuperlayer];
           weakSelf.vectorLayer = layer;
+          weakSelf.vectorLayer.repeatCount = 1.0f;
           
           weakSelf.vectorLayer.faceModel = transitionVector;
           [weakSelf.vectorLayer startAnimation];
           [weakSelf.vectorLayer setAnimationDidStopBlock:^(BOOL finish) {
             if (finish) {
+//              [weakSelf.vectorLayer pauseAnimation];
+              
               KFVectorLayer *layer = [weakSelf _createVectorLayer];
               [weakSelf.layer addSublayer:layer];
               [weakSelf.vectorLayer removeFromSuperlayer];
