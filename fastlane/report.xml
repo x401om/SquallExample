@@ -3,27 +3,27 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000945">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000458">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000321">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000282">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: cd .. &amp;&amp; rm -rf build" time="0.046112">
+      <testcase classname="fastlane.lanes" name="2: cd .. &amp;&amp; rm -rf build" time="0.040844">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: cocoapods" time="2.020456">
+      <testcase classname="fastlane.lanes" name="3: cocoapods" time="6.322088">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: clear_derived_data" time="0.001676">
+      <testcase classname="fastlane.lanes" name="4: clear_derived_data" time="0.000689">
         
       </testcase>
     
