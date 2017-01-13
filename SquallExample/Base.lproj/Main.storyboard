@@ -24,7 +24,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCk-0i-mKQ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="27.5" y="227" width="320" height="440"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Mhx-DP-f7E"/>
+                                    <constraint firstAttribute="height" constant="440" id="bUi-fj-uX2"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-cJ-xpp" customClass="EAKeyframeView">
                                 <rect key="frame" x="137.5" y="40" width="100" height="100"/>
@@ -32,6 +36,13 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="fK3-9g-MEC"/>
                                     <constraint firstAttribute="width" constant="100" id="nNf-d6-QqK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kfr-0k-Ems">
+                                <rect key="frame" x="87" y="167" width="200" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="Qds-kr-tDH"/>
+                                    <constraint firstAttribute="width" constant="200" id="ePJ-qD-e4c"/>
                                 </constraints>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="P8A-DC-uwz">
@@ -52,24 +63,25 @@
                         </subviews>
                         <color key="backgroundColor" red="0.41670045200359224" green="0.80986537876044318" blue="0.89780318737030029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Kfr-0k-Ems" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="83Q-d9-kbh"/>
                             <constraint firstItem="EwW-cJ-xpp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="9Yc-wq-NPb"/>
                             <constraint firstItem="P8A-DC-uwz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Ix6-bn-sI2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yCk-0i-mKQ" secondAttribute="bottom" id="JiA-Ir-Sbz"/>
                             <constraint firstItem="EwW-cJ-xpp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M1e-v4-ilj"/>
-                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NWv-jd-XEz"/>
                             <constraint firstItem="P8A-DC-uwz" firstAttribute="top" secondItem="EwW-cJ-xpp" secondAttribute="bottom" constant="14" id="P5E-Op-oUt"/>
-                            <constraint firstAttribute="trailing" secondItem="yCk-0i-mKQ" secondAttribute="trailing" id="TAn-sX-Nlb"/>
                             <constraint firstAttribute="trailing" secondItem="o9T-1h-Vj6" secondAttribute="trailing" id="eGa-Jz-Og4"/>
                             <constraint firstAttribute="trailing" secondItem="P8A-DC-uwz" secondAttribute="trailing" constant="16" id="gEy-dp-Q31"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o9T-1h-Vj6" secondAttribute="bottom" id="hsh-y1-gJx"/>
-                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pCr-PH-24L"/>
                             <constraint firstItem="o9T-1h-Vj6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rtR-ZQ-pwQ"/>
                             <constraint firstItem="o9T-1h-Vj6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sa5-s0-MAd"/>
+                            <constraint firstItem="yCk-0i-mKQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uiw-jd-o1l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kfr-0k-Ems" secondAttribute="bottom" id="ysd-D7-u1k"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="animationView" destination="yCk-0i-mKQ" id="R3l-mM-VbA"/>
                         <outlet property="cloudView" destination="EwW-cJ-xpp" id="VsP-nO-d03"/>
+                        <outlet property="fruitAppearingContainer" destination="Kfr-0k-Ems" id="Rmn-Ul-AhP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

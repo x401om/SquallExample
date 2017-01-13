@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B2EBDB1E28EB0B008C07F1 /* KFFruitAppearing.json in Resources */ = {isa = PBXBuildFile; fileRef = 74B2EBDA1E28EB0B008C07F1 /* KFFruitAppearing.json */; };
 		74CA432A1E0ADD6A008958EB /* KFFruit_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CA43231E0ADD6A008958EB /* KFFruit_1.json */; };
 		74CA432B1E0ADD6A008958EB /* KFFruit_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CA43241E0ADD6A008958EB /* KFFruit_2.json */; };
 		74CA432C1E0ADD6A008958EB /* KFFruit_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CA43251E0ADD6A008958EB /* KFFruit_3.json */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0B797FCB2E4EB2B8207EE2D1 /* Pods-SquallExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquallExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquallExample/Pods-SquallExample.release.xcconfig"; sourceTree = "<group>"; };
+		74B2EBDA1E28EB0B008C07F1 /* KFFruitAppearing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruitAppearing.json; sourceTree = "<group>"; };
 		74CA43231E0ADD6A008958EB /* KFFruit_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruit_1.json; sourceTree = "<group>"; };
 		74CA43241E0ADD6A008958EB /* KFFruit_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruit_2.json; sourceTree = "<group>"; };
 		74CA43251E0ADD6A008958EB /* KFFruit_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruit_3.json; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		74D3757B1DE8302A0021D3CC /* SquallExample */ = {
 			isa = PBXGroup;
 			children = (
+				74B2EBDA1E28EB0B008C07F1 /* KFFruitAppearing.json */,
 				74CA43311E0ADDAC008958EB /* Cloud */,
 				74CA43221E0ADD6A008958EB /* Fruits */,
 				74D9775F1DF570DC00E612FA /* SLLicense.txt */,
@@ -232,6 +235,7 @@
 				74CA432D1E0ADD6A008958EB /* KFFruit_4.json in Resources */,
 				74CA432B1E0ADD6A008958EB /* KFFruit_2.json in Resources */,
 				74CA43361E0ADDAC008958EB /* KFCloud_1.json in Resources */,
+				74B2EBDB1E28EB0B008C07F1 /* KFFruitAppearing.json in Resources */,
 				74CA43371E0ADDAC008958EB /* KFCloud_1_2.json in Resources */,
 				74CA432C1E0ADD6A008958EB /* KFFruit_3.json in Resources */,
 				74CA432E1E0ADD6A008958EB /* KFFruit_5.json in Resources */,

@@ -17,6 +17,7 @@
 
 @property (nonatomic, weak) IBOutlet EAKeyframeView *cloudView;
 @property (nonatomic, weak) IBOutlet UIView *animationView;
+@property (nonatomic, weak) IBOutlet UIView *fruitAppearingContainer;
 
 @property (nonatomic, weak) SLCoreAnimation *animation;
 
@@ -39,10 +40,28 @@
   [super viewDidAppear:animated];
   
   [self reloadAnimation:nil];
+  
+  KFVectorLayer *fruitAppearingLayer = [self createFruitAppearingLayer];
+  [self.fruitAppearingContainer.layer addSublayer:fruitAppearingLayer];
+  [fruitAppearingLayer startAnimation];
 }
 
 - (IBAction)didChangeSegment:(UISegmentedControl *)sender {
   [self.cloudView startVectorAnimationAtIndex:sender.selectedSegmentIndex + 1];
+}
+
+- (KFVectorLayer *)createFruitAppearingLayer {
+  NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"KFFruitAppearing" ofType:@"json" inDirectory:nil];
+  NSData *data = [NSData dataWithContentsOfFile:filePath];
+  if (!data) {
+    return nil;
+  }
+  NSDictionary *sampleVectorDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+  KFVector *sampleVector = KFVectorFromDictionary(sampleVectorDictionary);
+  KFVectorLayer *sampleVectorLayer = [KFVectorLayer new];
+  sampleVectorLayer.frame = CGRectMake(0, 0, 200, 500);
+  sampleVectorLayer.faceModel = sampleVector;
+  return sampleVectorLayer;
 }
 
 - (KFVectorLayer *)createFruitLayerWithId:(NSString *)fruitId {
