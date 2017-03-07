@@ -41,9 +41,9 @@
   
   [self reloadAnimation:nil];
   
-  KFVectorLayer *fruitAppearingLayer = [self createFruitAppearingLayer];
-  [self.fruitAppearingContainer.layer addSublayer:fruitAppearingLayer];
-  [fruitAppearingLayer startAnimation];
+//  KFVectorLayer *fruitAppearingLayer = [self createFruitAppearingLayer];
+//  [self.fruitAppearingContainer.layer addSublayer:fruitAppearingLayer];
+//  [fruitAppearingLayer startAnimation];
 }
 
 - (IBAction)didChangeSegment:(UISegmentedControl *)sender {
@@ -79,6 +79,23 @@
   return sampleVectorLayer;
 }
 
+- (CALayer *)createRowLayerWithId:(NSString *)fruitId {
+  CAShapeLayer *layer = [CAShapeLayer layer];
+  layer.path = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, 840, 120)].CGPath;
+  layer.fillColor = [UIColor colorWithWhite:0.5f alpha:0.0f].CGColor;
+  
+  CATextLayer *label = [[CATextLayer alloc] init];
+  [label setFont:@"DINRoundPro-Bold"];
+  [label setFontSize:60];
+  [label setFrame:CGRectMake(0, 0, 840, 120)];
+  [label setString:fruitId];
+  [label setAlignmentMode:kCAAlignmentCenter];
+  [label setForegroundColor:[[UIColor whiteColor] CGColor]];
+  [layer addSublayer:label];
+  
+  return layer;
+}
+
 - (IBAction)reloadAnimation:(id)sender {
   if (self.animation) {
     [self.animation pause];
@@ -87,23 +104,21 @@
 
   NSError *error;
   
-  SLAnimationInformation *animationInformation = [[SLReader new] parseFileFromBundle:@"Tree.sqa" error:&error];
+  SLAnimationInformation *animationInformation = [[SLReader new] parseFileFromBundle:@"SkillMachineTest.sqa" error:&error];
 
-  [animationInformation adaptLayerProperties:^(SLProperty * _Nonnull property, NSString * _Nonnull layerName) {
-    if ([layerName isEqual:@"fruit_1"]) {
-      if ([property.name isEqual:@"Opacity"]) {
-        property.value = @1;
-      }
-    }
-  }];
-  for (NSInteger i = 1; i <= 7; ++i) {
-    NSString *fruitLayerName = [NSString stringWithFormat:@"fruit_%@", @(i)];
-    KFVectorLayer *fruitLayer = [self createFruitLayerWithId:@(i).description];
-    [animationInformation replaceLayerWithName:fruitLayerName withLayer:fruitLayer
+//  [animationInformation adaptLayerProperties:^(SLProperty * _Nonnull property, NSString * _Nonnull layerName) {
+//    if ([layerName isEqual:@"fruit_1"]) {
+//      if ([property.name isEqual:@"Opacity"]) {
+//        property.value = @1;
+//      }
+//    }
+//  }];
+  for (NSInteger i = 1; i <= 10; ++i) {
+    NSString *fruitLayerName = [NSString stringWithFormat:@"BarrelCellDefault%@", @(i)];
+    CALayer *rowLayer = [self createRowLayerWithId:@(i).description];
+    [animationInformation replaceLayerWithName:fruitLayerName
+                                     withLayer:rowLayer
                                          error:&error];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(i * 0.1f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-      [fruitLayer startAnimation];
-    });
   }
   
   SLCoreAnimation *animation = [SLCoreAnimation new];

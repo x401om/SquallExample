@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74189E061E6EBC2D003E070B /* SlotMachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74189E051E6EBC2D003E070B /* SlotMachineViewController.m */; };
+		74189E091E6ECA14003E070B /* LongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74189E081E6ECA14003E070B /* LongViewController.m */; };
+		74189E0C1E6EE01C003E070B /* RowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74189E0B1E6EE01C003E070B /* RowView.m */; };
+		74189E0E1E6EE02C003E070B /* RowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74189E0D1E6EE02C003E070B /* RowView.xib */; };
+		74189E101E6EE1BF003E070B /* SlotAnimation1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74189E0F1E6EE1BF003E070B /* SlotAnimation1.plist */; };
+		747C27BF1E6DC1C400D11DC7 /* SkillMachineTest.sqa in Resources */ = {isa = PBXBuildFile; fileRef = 747C27BE1E6DC1C400D11DC7 /* SkillMachineTest.sqa */; };
+		74ADB93D1E48C0B600EAEEFB /* Rain.sqa in Resources */ = {isa = PBXBuildFile; fileRef = 74ADB93C1E48C0B600EAEEFB /* Rain.sqa */; };
 		74B2EBDB1E28EB0B008C07F1 /* KFFruitAppearing.json in Resources */ = {isa = PBXBuildFile; fileRef = 74B2EBDA1E28EB0B008C07F1 /* KFFruitAppearing.json */; };
 		74CA432A1E0ADD6A008958EB /* KFFruit_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CA43231E0ADD6A008958EB /* KFFruit_1.json */; };
 		74CA432B1E0ADD6A008958EB /* KFFruit_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CA43241E0ADD6A008958EB /* KFFruit_2.json */; };
@@ -33,6 +40,16 @@
 
 /* Begin PBXFileReference section */
 		0B797FCB2E4EB2B8207EE2D1 /* Pods-SquallExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquallExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquallExample/Pods-SquallExample.release.xcconfig"; sourceTree = "<group>"; };
+		74189E041E6EBC2D003E070B /* SlotMachineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachineViewController.h; sourceTree = "<group>"; };
+		74189E051E6EBC2D003E070B /* SlotMachineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachineViewController.m; sourceTree = "<group>"; };
+		74189E071E6ECA14003E070B /* LongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongViewController.h; sourceTree = "<group>"; };
+		74189E081E6ECA14003E070B /* LongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongViewController.m; sourceTree = "<group>"; };
+		74189E0A1E6EE01C003E070B /* RowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowView.h; sourceTree = "<group>"; };
+		74189E0B1E6EE01C003E070B /* RowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowView.m; sourceTree = "<group>"; };
+		74189E0D1E6EE02C003E070B /* RowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowView.xib; sourceTree = "<group>"; };
+		74189E0F1E6EE1BF003E070B /* SlotAnimation1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SlotAnimation1.plist; sourceTree = "<group>"; };
+		747C27BE1E6DC1C400D11DC7 /* SkillMachineTest.sqa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SkillMachineTest.sqa; sourceTree = "<group>"; };
+		74ADB93C1E48C0B600EAEEFB /* Rain.sqa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rain.sqa; sourceTree = "<group>"; };
 		74B2EBDA1E28EB0B008C07F1 /* KFFruitAppearing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruitAppearing.json; sourceTree = "<group>"; };
 		74CA43231E0ADD6A008958EB /* KFFruit_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruit_1.json; sourceTree = "<group>"; };
 		74CA43241E0ADD6A008958EB /* KFFruit_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KFFruit_2.json; sourceTree = "<group>"; };
@@ -126,6 +143,8 @@
 				74CA43221E0ADD6A008958EB /* Fruits */,
 				74D9775F1DF570DC00E612FA /* SLLicense.txt */,
 				74D375951DE839F60021D3CC /* Tree.sqa */,
+				74ADB93C1E48C0B600EAEEFB /* Rain.sqa */,
+				747C27BE1E6DC1C400D11DC7 /* SkillMachineTest.sqa */,
 				74D3757F1DE8302A0021D3CC /* AppDelegate.h */,
 				74D375801DE8302A0021D3CC /* AppDelegate.m */,
 				74D375821DE8302A0021D3CC /* ViewController.h */,
@@ -133,6 +152,14 @@
 				74CA43411E0BDEA2008958EB /* EAKeyframeView.h */,
 				74CA43421E0BDEA2008958EB /* EAKeyframeView.m */,
 				74D375851DE8302A0021D3CC /* Main.storyboard */,
+				74189E041E6EBC2D003E070B /* SlotMachineViewController.h */,
+				74189E051E6EBC2D003E070B /* SlotMachineViewController.m */,
+				74189E071E6ECA14003E070B /* LongViewController.h */,
+				74189E081E6ECA14003E070B /* LongViewController.m */,
+				74189E0A1E6EE01C003E070B /* RowView.h */,
+				74189E0B1E6EE01C003E070B /* RowView.m */,
+				74189E0D1E6EE02C003E070B /* RowView.xib */,
+				74189E0F1E6EE1BF003E070B /* SlotAnimation1.plist */,
 				74D375881DE8302A0021D3CC /* Assets.xcassets */,
 				74D3758A1DE8302A0021D3CC /* LaunchScreen.storyboard */,
 				74D3758D1DE8302A0021D3CC /* Info.plist */,
@@ -235,14 +262,18 @@
 				74CA432D1E0ADD6A008958EB /* KFFruit_4.json in Resources */,
 				74CA432B1E0ADD6A008958EB /* KFFruit_2.json in Resources */,
 				74CA43361E0ADDAC008958EB /* KFCloud_1.json in Resources */,
+				74189E0E1E6EE02C003E070B /* RowView.xib in Resources */,
 				74B2EBDB1E28EB0B008C07F1 /* KFFruitAppearing.json in Resources */,
 				74CA43371E0ADDAC008958EB /* KFCloud_1_2.json in Resources */,
 				74CA432C1E0ADD6A008958EB /* KFFruit_3.json in Resources */,
 				74CA432E1E0ADD6A008958EB /* KFFruit_5.json in Resources */,
 				74D375871DE8302A0021D3CC /* Main.storyboard in Resources */,
 				74D977601DF570DC00E612FA /* SLLicense.txt in Resources */,
+				747C27BF1E6DC1C400D11DC7 /* SkillMachineTest.sqa in Resources */,
+				74189E101E6EE1BF003E070B /* SlotAnimation1.plist in Resources */,
 				74D375961DE839F60021D3CC /* Tree.sqa in Resources */,
 				74CA432F1E0ADD6A008958EB /* KFFruit_6.json in Resources */,
+				74ADB93D1E48C0B600EAEEFB /* Rain.sqa in Resources */,
 				74CA432A1E0ADD6A008958EB /* KFFruit_1.json in Resources */,
 				74CA43301E0ADD6A008958EB /* KFFruit_7.json in Resources */,
 			);
@@ -305,8 +336,11 @@
 			files = (
 				74CA43431E0BDEA2008958EB /* EAKeyframeView.m in Sources */,
 				74D375841DE8302A0021D3CC /* ViewController.m in Sources */,
+				74189E091E6ECA14003E070B /* LongViewController.m in Sources */,
 				74D375811DE8302A0021D3CC /* AppDelegate.m in Sources */,
 				74D3757E1DE8302A0021D3CC /* main.m in Sources */,
+				74189E061E6EBC2D003E070B /* SlotMachineViewController.m in Sources */,
+				74189E0C1E6EE01C003E070B /* RowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

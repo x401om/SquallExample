@@ -1,10 +1,12 @@
 PODS:
   - Keyframes (1.0.0)
-  - Squall (2.0)
+  - PureLayout (3.0.2)
+  - Squall (2.02)
 
 DEPENDENCIES:
   - Keyframes (from `https://github.com/facebookincubator/Keyframes`)
-  - Squall (= 2.0)
+  - PureLayout
+  - Squall (= 2.02)
 
 EXTERNAL SOURCES:
   Keyframes:
@@ -17,8 +19,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Keyframes: 2048d8626d14ef726d1c5cffa0fa5c00f3d8f681
-  Squall: 49241aee882dc7a5e780f042ec3786e57655b54d
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Squall: b250ec3e7fcfc215d393073392b33d217c96e78c
 
-PODFILE CHECKSUM: 61db9a0292f73aa9bfe9579f79ff616d1f6d4697
+PODFILE CHECKSUM: b662fe07e5bd5e1ddc9941c43b01d5c88d4a3624
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

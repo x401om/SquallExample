@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>start</key>
+		<integer>0</integer>
+		<key>duration</key>
+		<real>0.1</real>
+		<key>value</key>
+		<integer>-10</integer>
+	</dict>
+	<dict>
+		<key>start</key>
+		<real>0.1</real>
+		<key>duration</key>
+		<real>0.1</real>
+		<key>value</key>
+		<integer>-50</integer>
+	</dict>
+	<dict>
+		<key>start</key>
+		<real>0.2</real>
+		<key>duration</key>
+		<real>0.6</real>
+		<key>value</key>
+		<integer>-2500</integer>
+	</dict>
+	<dict>
+		<key>start</key>
+		<real>0.8</real>
+		<key>duration</key>
+		<real>0.1</real>
+		<key>value</key>
+		<integer>-2550</integer>
+	</dict>
+	<dict>
+		<key>start</key>
+		<real>0.9</real>
+		<key>duration</key>
+		<real>0.05</real>
+		<key>value</key>
+		<integer>-2570</integer>
+	</dict>
+	<dict>
+		<key>start</key>
+		<real>0.95</real>
+		<key>duration</key>
+		<real>0.05</real>
+		<key>value</key>
+		<integer>-2560</integer>
+	</dict>
+</array>
+</plist>

@@ -4,6 +4,7 @@
 use_frameworks!
 
 target 'SquallExample' do
-  pod 'Squall', '= 2.0'
+  pod 'Squall', '= 2.02'
   pod 'Keyframes', :git => 'https://github.com/facebookincubator/Keyframes'
+  pod 'PureLayout'
 end
