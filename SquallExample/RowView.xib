@@ -45,6 +45,7 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="button" destination="RR2-at-FAL" id="V66-rd-IgU"/>
                 <outlet property="label" destination="S0M-EJ-KAK" id="bz3-oc-qkN"/>
             </connections>
         </view>
